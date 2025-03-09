@@ -10,6 +10,13 @@ const[consvertedAmount,setConvertedAmount]=useState(0)
 
 const currencyInfo=useCurrencyInfo(from)
 const options=Object.keys(currencyInfo)
+const swap=()=>{
+  setFrom(to)
+  setFrom(from)
+  setConvertedAmount(amount)
+  setAmount(consvertedAmount)
+}
+
   return (
     <>
      
