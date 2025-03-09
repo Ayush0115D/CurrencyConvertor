@@ -24,7 +24,7 @@ return (
   <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-          backgroundImage: `url('https://images.pexels.com/photos/2678301/pexels-photo-2678301.jpeg')`,
+          backgroundImage: `url('https://images.pexels.com/photos/3521353/pexels-photo-3521353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
       }}
   >
       <div className="w-full">
