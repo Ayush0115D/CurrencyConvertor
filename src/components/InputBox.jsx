@@ -15,7 +15,7 @@ function InputBox({
  const amountInputId=useId()  
 
     return (
-        <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+        <div className={` bg-white p-3 rounded-lg text-sm flex ${className}`}>
              {/* //user ko kch alg css lgane ho so ``ye codes me band krde css*/}
             <div className="w-1/2">
                 <label htmlFor={amountInputId} className="text-black/40 mb-2 inline-block">
@@ -23,7 +23,7 @@ function InputBox({
                 </label>
                 <input
                     id={amountInputId}
-                    className="outline-none w-full bg-transparent py-1.5"
+                    className=" outline-none w-full bg-transparent py-1.5"
                     type="number"
                     placeholder="Amount"
                     disabled={amountDisable}
