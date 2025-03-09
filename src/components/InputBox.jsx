@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useId} from 'react'
 
 function InputBox({
     label,
@@ -12,17 +12,17 @@ function InputBox({
     
     className = "",
 }) {
-   
+ const amountInputId=useId()  
 
     return (
         <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
              {/* //user ko kch alg css lgane ho so ``ye codes me band krde css*/}
             <div className="w-1/2">
-                <label  className="text-black/40 mb-2 inline-block">
+                <label htmlFor={amounInputtId} className="text-black/40 mb-2 inline-block">
                     {label}
                 </label>
                 <input
-                    
+                    id={amountInputId}
                     className="outline-none w-full bg-transparent py-1.5"
                     type="number"
                     placeholder="Amount"
@@ -40,7 +40,7 @@ function InputBox({
                     disabled={currencyDisable}
                 >
                        {CurrencyOptions.map((Currency)=>(
-                        <option value="usd">USD</option>
+                        <option key={Currency} value={Currency}>{Currency}</option> //performance lane h loop m toh key pass krne chaye
                        ))}
                 
                 </select>
