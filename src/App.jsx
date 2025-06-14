@@ -69,7 +69,7 @@ return (
                   </button>
               </form>
           </div>
-          <div className=' absolute top-0 left-0 w-110 h-110 '><img className="rounded-2xl " src="https://imgproxy.learnyst.com/https://learnyst-user-assets.s3.ap-south-1.amazonaws.com/school-assets/schools/171024/schoolLogo/1717484431216banner_lyst1717484431227.png?w=0&h=0&resizetype=fit"   />
+          <div className=' absolute top-0 left-0 w-110 h-110 '><img className="rounded-2xl " src="https://i.pinimg.com/736x/c7/9a/62/c79a62b18002a4528d98af503d18b910.jpg"/>
           </div>
       </div>
   </div>
